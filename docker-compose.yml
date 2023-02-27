@@ -45,7 +45,7 @@ services:
       # Expõe a porta padrão do banco de dados
       - 3306:3306
     environment:
-      MYSQL_ROOT_PASSWORD:password
+      MYSQL_ROOT_PASSWORD: password
 
 # Lista de redes que os containeres irão utilizar
 networks:
